@@ -16,3 +16,9 @@ The CNN architecture is defined using Keras’s Sequential API. It includes thre
 The model is compiled with the Adam optimizer, which is efficient for training deep neural networks, and uses sparse categorical crossentropy as the loss function, appropriate for multi-class classification with integer labels. Accuracy is used as the evaluation metric. The model is trained for 10 epochs on the training data, and its performance is validated on the test data during each epoch to monitor generalization.
 Once training is complete, the script evaluates the model on the test set using model.evaluate() and prints the resulting accuracy. It also visualizes the training and validation accuracy over the epochs using Matplotlib, which provides insight into whether the model is learning effectively or overfitting. Finally, it generates predictions for the first 10 test images and displays them along with their predicted and true labels. The label color indicates prediction correctness—green for correct predictions and red for incorrect.
 This script is intended to run in any Python environment that supports TensorFlow, such as local machines, Google Colab, or cloud platforms like AWS or Azure. It demonstrates an end-to-end machine learning workflow, including data preparation, model design, training, evaluation, and result visualization using powerful tools from the Python ecosystem.
+##OUTPUT
+![Image](https://github.com/user-attachments/assets/9290b810-3c26-4d49-a6e4-2e0b51a01495)
+![Image](https://github.com/user-attachments/assets/9a8887fa-45ae-4a8a-b00d-2f509d2a39a4)
+![Image](https://github.com/user-attachments/assets/732804f8-e7a4-468f-acbe-f0d17e33a88d)
+![Image](https://github.com/user-attachments/assets/28705250-1a0a-449e-99f8-bcfa48284e67)
+![Image](https://github.com/user-attachments/assets/bad91e44-fc59-4a1e-8509-4d4287e6b36f)
